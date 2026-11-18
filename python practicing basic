@@ -1,0 +1,7 @@
+numbers=[2,5,2,8,5,9,2]
+freaquency={}
+for n in numbers:
+    freaquency[n]=freaquency.get(n,0)+1
+for n,c in freaquency.items():
+    print(n,"appears",c,"times")
+    
